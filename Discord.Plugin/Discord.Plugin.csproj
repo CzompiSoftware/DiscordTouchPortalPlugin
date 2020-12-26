@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>71626f8f-5dc1-4983-b3ea-fac1130d962c</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CzomPack" Version="2.3.1.8" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.10" />
+    <PackageReference Include="TouchPortalApi" Version="0.3.2" />
+    <PackageReference Include="WatsonWebsocket" Version="2.2.0.12" />
+  </ItemGroup>
+
+
+</Project>
